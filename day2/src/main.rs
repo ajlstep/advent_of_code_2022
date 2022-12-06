@@ -17,7 +17,6 @@ fn main() {
 }
 
 fn first_part(file_name: &str) {
-    let vc: Vec<String> = vec!["A".to_string(), "B".to_string(), "C".to_string()];
     let mut sum = 0;
     for line in get_buffer(file_name).lines() {
         let ln = rep(line.expect("get line err"));
@@ -29,7 +28,6 @@ fn first_part(file_name: &str) {
 }
 
 fn second_part(file_name: &str) {
-    let vc: Vec<String> = vec!["A".to_string(), "B".to_string(), "C".to_string()];
     let mut sum = 0;
     for line in get_buffer(file_name).lines() {
         let ln = rep(line.expect("get line err"));
